@@ -1,16 +1,9 @@
-name: CI - Build y Test
-
-on: [push, pull_request]
+name: Mi Primer Action
+on: [push] # Se activa cada vez que subes algo
 
 jobs:
-  build:
+  saludo:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Instalar dependencias
-        run: npm install
-
-      - name: Ejecutar tests
-        run: npm test
+      - name: Saludar
+        run: echo "¡Hola! GitHub Actions está funcionando correctamente."
