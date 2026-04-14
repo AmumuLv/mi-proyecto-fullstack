@@ -1,4 +1,5 @@
 name: CI - Build y Test
+<<<<<<< HEAD
 on: [push, pull_request]
 jobs:
   build:
@@ -9,3 +10,20 @@ jobs:
         run: npm install
       - name: Ejecutar tests
         run: npm test
+=======
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar dependencias
+        run: npm install
+
+      - name: Ejecutar tests
+        run: npm test
+>>>>>>> cfb758f (Agregando flujo de CI)

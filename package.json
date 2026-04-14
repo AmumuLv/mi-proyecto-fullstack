@@ -1,0 +1,21 @@
+{
+  "name": "mi-proyecto-fullstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmumuLv/mi-proyecto-fullstack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AmumuLv/mi-proyecto-fullstack/issues"
+  },
+  "homepage": "https://github.com/AmumuLv/mi-proyecto-fullstack#readme"
+}
