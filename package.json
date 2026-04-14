@@ -1,0 +1,16 @@
+{
+  "name": "mi-proyecto-fullstack",
+  "version": "1.0.0",
+  "description": "Mi proyecto fullstack",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
