@@ -1,1 +1,1 @@
-console.log("Login funcionando");
+console.log("Cargando el dashboard de Hector...");
